@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf8"/>
+      <meta http-equiv="pragma" content="no-cache"/>
+      
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <title>OCR From Stream</title>
+      <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+
+  <body>
+
+      <!-- 以下を追記  -->
+      <h2>OCR From Stream</h2>
+
+      <!-- Video element (live stream) -->
+      <div>
+        <video autoplay playsinline id="video" width="640" height="480"></video>
+      </div>
+      
+      <div id="text-button"><p id="text"><input type="button" value="SCAN"></p></div>
+      
+      <textarea id="outputText" rows="10" cols="80"></textarea></textarea>
+
+      <br><br><hr><br>
+      <a href="ocr_from_clipboard">OCR From Clipboard</a>
+
+      <!-- javascript  -->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="/static/js/video_initial.js"></script>
+      <script src="/static/js/post.js"></script> 
+      <script src="/static/js/streamImage_base64.js"></script> 
+
+  </body>
+</html>
