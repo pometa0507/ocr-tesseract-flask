@@ -20,7 +20,7 @@ OR you can pull and/or run the Docker image from my repository on Docker Hub
 
 ```
 $ docker pull pometa0507/ocr-tesseract-flask
-$ docker run -d -p 5000:5000 ricktorzynski/ocr-tesseract-flask
+$ docker run -d -p 5000:5000 pometa0507/ocr-tesseract-flask
 ```
 
 Then open up browser to http://localhost:5000
